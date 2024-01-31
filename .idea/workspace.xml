@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3ee177-18dc-4a5b-bcd8-0251980764fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/yas/screenmatch/principal/PrincipalComListas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/yas/screenmatch/calculos/CalculadoraDeTempo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/yas/screenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/yas/screenmatch/calculos/Classificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/yas/screenmatch/calculos/Classificavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/yas/screenmatch/calculos/FiltroRecomendacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/yas/screenmatch/calculos/FiltroRecomendacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/yas/screenmatch/modelos/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/yas/screenmatch/modelos/Episodio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/yas/screenmatch/principal/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/yas/screenmatch/modelos/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/yas/screenmatch/modelos/Filme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/yas/screenmatch/modelos/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/yas/screenmatch/modelos/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/yas/screenmatch/modelos/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/yas/screenmatch/modelos/Titulo.java" afterDir="false" />
@@ -20,6 +16,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,11 +30,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yasmindarc&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6ed21456-af48-4393-9602-d841943b894b" />
+        <option name="url" value="https://github.com/Yasmindarc/screenmatch.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Principal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/Principal.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -49,27 +62,52 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Principal.executor": "Run",
+    "Application.PrincipalComListas.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PrincipalComListas">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <option name="MAIN_CLASS_NAME" value="br.com.yas.screenmatch.principal.Principal" />
       <module name="screenmatch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalComListas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.yas.screenmatch.principal.PrincipalComListas" />
+      <module name="screenmatch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.yas.screenmatch.principal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrincipalComListas" />
         <item itemvalue="Application.Principal" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
